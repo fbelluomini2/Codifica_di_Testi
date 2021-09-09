@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- This document contains data on Codifica di Testi.
+
+    Filename: Esercizio_Root_TEI.xml 
+    Author: Francesca Belluomini
+    Date: 20 agosto 2021
+-->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+<teiHeader xml:lang="eng">
+   <fileDesc>
+   
+     <titleStmt>
+	   <title type="main"><htmlCode> <![CDATA[ <h1>Harry Potter</h1>]]> </htmlCode></title>
+	   <title type="sub"><htmlCode><![CDATA[<h2> and the Philosofer's Stone</h2>]]></htmlCode></title>
+	   <author ref="#JKR">di J. K. Rowling</author>
+	 </titleStmt>
+	 
+	 <publicationStmt>
+	    <publisher xml:lang="eng" ref="https://www.bloomsbury.com/uk/">Bloomsbury Publishing </publisher>
+	 </publicationStmt>
+	 
+	 <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+		     <repository role="wiki" ref="https://en.wikipedia.org/wiki/Harry_Potter_and_the_Philosopher%27s_Stone">Wikipedia </repository>
+		  </msIdentifier>
+        </msDesc>	
+	 </sourceDesc>
+  </fileDesc>
+
+</teiHeader>
+
+<text xml:lang="eng" xml:id="Libro">
+    <body>
+      <div xml:lang="it" >
+        <ab category="children">
+          <idno type="title"><htmlCode> <![CDATA[ <h1>Harry Potter</h1> <h2> and the Philosofer's Stone</h2> ]]> </htmlCode></idno>
+          <persName>
+	        <foreName><abbr>J K.</abbr></foreName>
+		    <foreName>Rowling</foreName> 
+	      </persName>
+          <idno type="year">1997</idno>
+          <idno type="price">20.00</idno>
+	      <idno type="price">15.20</idno> 
+	      <idno type="price">9.50</idno>
+        </ab>
+		<ab>
+		  <seg>
+		    <title>A quote from the book</title>
+			<quote>
+			   “Your mother died to save you. If there is one thing Voldemort cannot understand, it is love. 
+			    He didn't realize that love as powerful as your mother's for you leaves its own mark. 
+			    Not a scar, no visible sign… to have been loved so deeply, even though the person who loved us is gone, 
+			    will give us some protection forever. It is in your very own skin. Quirrel, full of hatred, greed, and ambition, 
+			    sharing his soul with Voldemort, could not touch you for this reason. 
+			    It was agony to touch a person marked by something so good.”
+			</quote>
+		  </seg>
+		</ab>
+      </div>
+    </body>
+</text>
+</TEI>

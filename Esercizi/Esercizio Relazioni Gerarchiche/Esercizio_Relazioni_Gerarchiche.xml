@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!-- This document contains data on Codifica di Testi.
+
+    Filename: Esercizio_Relazioni_Gerarchiche.xml 
+    Author: Francesca Belluomini
+    Date: 20 agosto 2021
+-->
+<bookstore>
+  <book category="children">
+    <title>Harry Potter</title>
+    <author>J K. Rowling</author>
+    <year>1998</year>
+    <price>20.00</price>
+	</bookstore>
+  </book>
+

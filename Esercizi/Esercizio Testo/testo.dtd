@@ -1,0 +1,82 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT ns1:TEI (ns1:teiHeader,ns1:text)>
+<!ATTLIST ns1:TEI
+  xmlns:ns1 CDATA #FIXED 'http://www.tei-c.org/ns/1.0'>
+
+<!ELEMENT ns1:teiHeader (ns1:fileDesc)>
+<!ATTLIST ns1:teiHeader
+  xmlns:ns1 CDATA #FIXED 'http://www.tei-c.org/ns/1.0'
+  xml:lang NMTOKEN #REQUIRED>
+
+<!ELEMENT ns1:text (ns1:body)>
+<!ATTLIST ns1:text
+  xmlns:ns1 CDATA #FIXED 'http://www.tei-c.org/ns/1.0'
+  xml:id NMTOKEN #REQUIRED
+  xml:lang NMTOKEN #REQUIRED>
+
+<!ELEMENT ns1:fileDesc (ns1:titleStmt,ns1:publicationStmt,
+                        ns1:sourceDesc)>
+<!ATTLIST ns1:fileDesc
+  xmlns:ns1 CDATA #FIXED 'http://www.tei-c.org/ns/1.0'>
+
+<!ELEMENT ns1:body (ns1:div)>
+<!ATTLIST ns1:body
+  xmlns:ns1 CDATA #FIXED 'http://www.tei-c.org/ns/1.0'
+  xml:id CDATA #REQUIRED>
+
+<!ELEMENT ns1:titleStmt (ns1:title,ns1:author)>
+<!ATTLIST ns1:titleStmt
+  xmlns:ns1 CDATA #FIXED 'http://www.tei-c.org/ns/1.0'>
+
+<!ELEMENT ns1:publicationStmt (ns1:publisher)>
+<!ATTLIST ns1:publicationStmt
+  xmlns:ns1 CDATA #FIXED 'http://www.tei-c.org/ns/1.0'>
+
+<!ELEMENT ns1:sourceDesc (ns1:msDesc)>
+<!ATTLIST ns1:sourceDesc
+  xmlns:ns1 CDATA #FIXED 'http://www.tei-c.org/ns/1.0'>
+
+<!ELEMENT ns1:div (ns1:p)+>
+<!ATTLIST ns1:div
+  xmlns:ns1 CDATA #FIXED 'http://www.tei-c.org/ns/1.0'
+  n NMTOKEN #REQUIRED>
+
+<!ELEMENT ns1:title (ns1:htmlCode)>
+<!ATTLIST ns1:title
+  xmlns:ns1 CDATA #FIXED 'http://www.tei-c.org/ns/1.0'
+  type NMTOKEN #REQUIRED>
+
+<!ELEMENT ns1:author EMPTY>
+<!ATTLIST ns1:author
+  xmlns:ns1 CDATA #FIXED 'http://www.tei-c.org/ns/1.0'
+  ref CDATA #REQUIRED>
+
+<!ELEMENT ns1:publisher EMPTY>
+<!ATTLIST ns1:publisher
+  xmlns:ns1 CDATA #FIXED 'http://www.tei-c.org/ns/1.0'
+  ref CDATA #REQUIRED
+  xml:lang NMTOKEN #REQUIRED>
+
+<!ELEMENT ns1:msDesc (ns1:msIdentifier)>
+<!ATTLIST ns1:msDesc
+  xmlns:ns1 CDATA #FIXED 'http://www.tei-c.org/ns/1.0'>
+
+<!ELEMENT ns1:p EMPTY>
+<!ATTLIST ns1:p
+  xmlns:ns1 CDATA #FIXED 'http://www.tei-c.org/ns/1.0'
+  n CDATA #REQUIRED>
+
+<!ELEMENT ns1:htmlCode (#PCDATA)>
+<!ATTLIST ns1:htmlCode
+  xmlns:ns1 CDATA #FIXED 'http://www.tei-c.org/ns/1.0'>
+
+<!ELEMENT ns1:msIdentifier (ns1:repository)>
+<!ATTLIST ns1:msIdentifier
+  xmlns:ns1 CDATA #FIXED 'http://www.tei-c.org/ns/1.0'>
+
+<!ELEMENT ns1:repository EMPTY>
+<!ATTLIST ns1:repository
+  xmlns:ns1 CDATA #FIXED 'http://www.tei-c.org/ns/1.0'
+  ref CDATA #REQUIRED
+  role NMTOKEN #REQUIRED>

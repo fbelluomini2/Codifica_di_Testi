@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE TEI SYSTEM ".dtd" >
+
+<!-- This document contains data on Codifica di Testi.
+
+    Filename: Esercizio_Articolo.xml 
+    Author: Francesca Belluomini
+    Date: 20 agosto 2021
+-->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ 
+    <teiHeader xml:lang="it">
+   <fileDesc>
+   
+     <titleStmt>
+	   <title type="main"><htmlCode> <![CDATA[ <h1>Alle Tartarughe piace il caldo</h1>]]> </htmlCode></title>
+	   <author ref="#GC">Giovanni Carrada</author>
+	 </titleStmt>
+	 
+	 <publicationStmt>
+	    <publisher xml:lang="it" ref="https://www.nationalgeographic.it/"> National Geographic Italia</publisher>
+		<pubPlace>Milano</pubPlace>
+		<date>Agosto 1998</date>
+	 </publicationStmt>
+	 
+	 <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+		     <repository role="magazine">National Geographic Italia </repository>
+			 <idno>Orangutan</idno>
+			 <idno>VOL. 2, N.2</idno>
+		  </msIdentifier>
+        </msDesc>	
+	 </sourceDesc>
+  </fileDesc>
+
+</teiHeader>
+
+<facsimile>
+
+   <surface>
+      <graphic url='articolo.jpg' width='604px' height='642px' />
+        <zone ulx="118" uly="77" lrx="195" lry="97" />
+        <zone ulx="379" uly="80" lrx="443" lry="98" />
+        <zone ulx="35" uly="102" lrx="83" lry="121" />
+        <zone ulx="55" uly="125" lrx="118" lry="141" />
+        <zone ulx="212" uly="102" lrx="253" lry="121" />
+        <zone ulx="58" uly="147" lrx="103" lry="165" />
+        <zone ulx="244" uly="147" lrx="387" lry="165" />
+        <zone ulx="233" uly="171" lrx="277" lry="186" />
+        <zone ulx="307" uly="168" lrx="415" lry="186" />
+        <zone ulx="132" uly="190" lrx="246" lry="209" />
+        <zone ulx="477" uly="213" lrx="535" lry="231" />
+        <zone ulx="310" uly="213" lrx="539" lry="232" />
+        <zone ulx="32" uly="213" lrx="179" lry="232" />
+        <zone ulx="220" uly="237" lrx="287" lry="255" />
+        <zone ulx="444" uly="237" lrx="547" lry="254" />
+        <zone ulx="173" uly="325" lrx="231" lry="343" />
+        <zone ulx="233" uly="325" lrx="292" lry="345" />
+        <zone ulx="308" uly="327" lrx="350" lry="342" />
+        <zone ulx="337" uly="397" lrx="447" lry="411" />
+        <zone ulx="434" uly="551" lrx="522" lry="566" />
+   </surface>
+
+</facsimile>
+
+<text xml:lang="it" xml:id="Articolo">
+  <body>
+   <div type="trascrizione">
+   
+     <pb xml:id="trascrizione_articolo">
+	 
+	   <ab type="parag" n="1" xml:id="paragrafo1">
+	     
+		 <lb xml:id="linea1" n="1"/>
+	       Liberata a <name type="place">Stromboli</name>, ha passato lo stretto di <name type="place">Messina</name>, è scesa verso
+		 
+		 <lb xml:id="linea2" n="2"/>
+		   <name type="place">Creta</name>, poi giù fino alla <name type="place">Libia</name> e, dopo una sosta ha raggiunto
+		 
+		 <lb xml:id="linea3" n="3"/>
+		   la <name type="place">Turchia</name>. In tutto, 8 mesi e 2600 km di navigazione: è il viaggio
+		 
+		 <lb xml:id="linea4" n="4"/>
+		   di <name type="animal">Gaeta</name>, una delle quattro <term>tartarughe marine</term> studiate per seguire le
+		 
+		 <lb xml:id="linea5" n="5"/>
+		   rotte migratorie di questi <term>rettili</term> nel <name type="place">Mediterraneo</name>.
+	   
+	   </ab>
+	   
+	   <ab type="parag" n="2" xml:id="paragrafo2">
+	     
+		   <quote>"Finora
+		 
+		 <lb xml:id="linea6" n="6"/>
+		   le notizie su <term>Carretta carretta</term> erano frutto di segnalazioni sparse"</quote>, dice
+		 
+		 <lb xml:id="linea7" n="7"/>
+		   <name type="person">Flegra Bentivegna</name>, ricercatrice della <orgName>Stazione zoologica di <name type="place">Napoli</name></orgName>,
+		 
+		 <lb xml:id="linea8" n="8"/>
+		   autrice dello studio.
+	   
+	   </ab>
+	   
+	   <ab type="parag" n="3" xml:id="paragrafo3">
+	     
+		   Sul <term>carapace</term> è stato applicato un <term>trasmettitore</term>
+		 
+		 <lb xml:id="linea9" n="9"/>
+		   che segnala a un satellite la posizione. <quote>"Vengono da noi all'inizio
+		 
+		 <lb xml:id="linea10" n="10"/>
+		   dell'estate per mangiare, e ripartono quando la temperature scende
+		 
+		 <lb xml:id="linea11" n="11"/>
+		   sotto i 19°C. In giugno, le femmine adulte si avvicinano a certe
+		 
+		 <lb xml:id="linea12" n="12"/>
+		   spiaggie deserte in <name type="place">Grecia</name>, <name type="place">Turchia</name> e <name type="place">Libia</name>, e in una notte senzaa luna
+		 
+		 <lb xml:id="linea13" n="13"/>
+		   seppelliscono le uova sotto un metro di sabbia."</quote>
+	   
+	   </ab>
+	   
+	   <ab type="parag" n="4" xml:id="paragrafo4">
+	     
+		   Non sappiamo
+		 
+		 <lb xml:id="linea14" n="14"/>
+		   quanti esemplari vi siano nel <name type="place">Mediterraneo</name>, ma le
+		 
+		 <lb xml:id="linea15" n="15"/>
+		   femmine che si riproducono
+		 
+		 <lb xml:id="linea16" n="16"/>
+		   sono circa 2000: troppo poche 
+		 
+		 <lb xml:id="linea17" n="17"/>
+		   rispetto alle centinaia che
+		 
+		 <lb xml:id="linea18" n="18"/>
+		   muoiono ogni anno nelle reti
+		 
+		 <lb xml:id="linea19" n="19"/>
+		   dei pescatori. <quote>"Conoscendo le
+		 
+		 <lb xml:id="linea20" n="20"/>
+		   loro rotte, potremo proteggerle
+		 
+		 <lb xml:id="linea21" n="21"/>
+		   meglio"</quote>, dice la <name type="person">Bentivegna</name>
+	  
+	  </ab>
+	   
+	 </pb>
+   </div>  
+  </body>
+</text>
+
+</TEI>

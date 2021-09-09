@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- This document contains data on Codifica di Testi.
+
+    Filename: Esercizio_CDATA.xml 
+    Author: Francesca Belluomini
+    Date: 20 agosto 2021
+-->
+
+<bookstore>
+  <book category="children">
+    <title><htmlCode> <![CDATA[ <h1>Harry Potter</h1> <h2> e la Pietra Filosofale</h2> ]]> </htmlCode></title>
+    <author><abbr>J K.</abbr> Rowling</author> 
+    <year>1998</year>
+    <price>20.00</price>
+	<price>15.20</price> 
+	<price>9.50</price>
+  </book>
+</bookstore> 

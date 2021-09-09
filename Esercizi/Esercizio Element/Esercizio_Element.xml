@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+<!-- This document contains data on Codifica di Testi.
+
+    Filename: Esercizio_Element.xml 
+    Author: Francesca Belluomini
+    Date: 20 agosto 2021
+-->
+
+<bookstore>
+  <book category="children">
+    <title>Harry Potter</title>
+	<title>e la Pietra Filosofale</title> <!-- aggiunto il sottotitolo -->
+    <author><abbr>J K.</abbr> Rowling</author> <!-- aggiunto il tag per l'abbreviazione del nome -->
+    <year>1998</year>
+    <price>20.00</price>
+	<price>15.20</price> <!-- aggiunto gli altri prezzi presenti sul mercato per il volume -->
+	<price>9.50</price>
+  </book>
+</bookstore> <!-- il tag </bookstore> era sopra il tag </book> impedendo così il corretto annidiamento-->

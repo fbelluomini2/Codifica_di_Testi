@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<!-- This document contains data on Codifica di Testi.
+
+    Filename: Esercizio_Tabella.xml 
+    Author: Francesca Belluomini
+    Date: 20 agosto 2021
+-->
+
+<teiHeader xml:lang="it">
+   <fileDesc>
+   
+     <titleStmt>
+	   <title>Esercizio</title>
+	 </titleStmt>
+	 
+	 <publicationStmt>
+	    <publisher>Francesca Belluomini</publisher>
+	 </publicationStmt>
+	 
+	 <sourceDesc>
+        <msDesc>
+          <msIdentifier></msIdentifier>
+        </msDesc>	
+	 </sourceDesc>
+  </fileDesc>
+
+</teiHeader>
+ 
+<facsimile source="#mypc">
+    <surface xml:id="file"></surface>
+</facsimile> 
+
+<text xml:lang="it" xml:id="pagina">
+    <body>
+        <div>
+            <ab>
+			   <title>Brownies Vegan</title>
+			   <title><term>Ricetta</term> di <name>Benedetta</name></title>
+			   Scopri come mettere tutti d'accordo in tavola: un brownies (i tipici dolci <rs type="nationality">americani</rs>) vegan e senza glutine, sano ma super gustoso. 
+			   In meno di un'ora dall'inizio alla fine, il tuo brownies sarà pronto da assaggiare! 
+			   <note type="gloss" place="margin">Ricetta vegana e senza glutine.</note> 
+			</ab>
+			
+			<ab>
+			 <list>
+			  <head><term>Ingredienti</term>:</head> 
+			  <item>400g cioccolato fondente;</item> 
+			  <item>800ml latte vegetale;</item> 
+			  <item>240g zuccchero di canna;</item>
+			  <item>300g farina di riso integrale</item>
+			  <item>80g cacao amaro;</item>
+			  <item>16g lievito per dolci;</item>
+			  <item>1 cucchiaino di sale;</item>
+			  <item>4g cannella;</item>
+			  <item>vaniglia a piacere;</item>
+			  <item>100g mandorle.</item>
+			 </list>
+		   </ab>
+		   
+		   <ab>
+		     
+		   
+		   </ab>
+			
+        </div>
+    </body>
+</text>
+
+
+
+
+</TEI>
